@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Simple Recorder.js demo with record, stop and pause</title>
+  </head>
+  <body>
+  	<h3>Controls</h3>
+  	<button id="recordButton">Record</button>
+  	<button id="pauseButton" disabled>Pause</button>
+  	<button id="stopButton" disabled>Stop</button>
+
+  	<h3>Recordings</h3>
+  	<ol id="recordingsList"></ol>
+
+    <!-- inserting these scripts at the end to be able to use all the elements in the DOM -->
+  	<script src="https://cdn.rawgit.com/mattdiamond/Recorderjs/08e7abd9/dist/recorder.js"></script>
+  	<script src="js/app.js"></script>
+    
+  </body>
+</html>
