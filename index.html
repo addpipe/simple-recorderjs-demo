@@ -20,6 +20,13 @@
   	 <button id="pauseButton" disabled>Pause</button>
   	 <button id="stopButton" disabled>Stop</button>
     </div>
+    <div id="formats"></div>
+    <script type="text/javascript">
+      var AudioContext = window.AudioContext || window.webkitAudioContext;
+      var audioCtx = new AudioContext();
+      document.getElementById("formats").innerHTML="Format: 1 channel pcm @ "+audioCtx.sampleRate/1000+"kHz"
+      console.log(audioCtx.sampleRate);
+    </script>
 
   	<h3>Recordings</h3>
   	<ol id="recordingsList"></ol>
