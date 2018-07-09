@@ -4,12 +4,22 @@
     <meta charset="UTF-8">
     <title>Simple Recorder.js demo with record, stop and pause</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
   	<h3>Controls</h3>
   	<button id="recordButton">Record</button>
   	<button id="pauseButton" disabled>Pause</button>
   	<button id="stopButton" disabled>Stop</button>
+    <h1>Simple Recorder.js demo with record, stop and pause</h1>
+    <p>
+        Matt Diamond‘s <a href="https://github.com/mattdiamond/Recorderjs">Recorder.js</a> is a popular JavaScript library for recording audio in the browser as uncompressed pcm audio in .wav containers. Before it the only way to record audio was to use Flash.
+    </p>
+    <div id="controls">
+  	 <button id="recordButton">Record</button>
+  	 <button id="pauseButton" disabled>Pause</button>
+  	 <button id="stopButton" disabled>Stop</button>
+    </div>
 
   	<h3>Recordings</h3>
   	<ol id="recordingsList"></ol>
