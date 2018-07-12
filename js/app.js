@@ -7,7 +7,7 @@ var input; 							//MediaStreamAudioSourceNode we'll be recording
 
 // shim for AudioContext when it's not avb. 
 var AudioContext = window.AudioContext || window.webkitAudioContext;
-var audioContext = new AudioContext; //new audio context to help us record
+var audioContext //audio context to help us record
 
 var recordButton = document.getElementById("recordButton");
 var stopButton = document.getElementById("stopButton");
@@ -43,6 +43,12 @@ function startRecording() {
 
 	navigator.mediaDevices.getUserMedia(constraints).then(function(stream) {
 		console.log("getUserMedia() success, stream created, initializing Recorder.js ...");
+
+		//create an audio context after getUserMedia is called, sampleRate might change after getUserMedia is called
+		audioContext = new AudioContext;
+
+		//update the format 
+		document.getElementById("formats").innerHTML="Format: 1 channel pcm @ "+audioContext.sampleRate/1000+"kHz"
 
 		/*  assign to gumStream for later use  */
 		gumStream = stream;
