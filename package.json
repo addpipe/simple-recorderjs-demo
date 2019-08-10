@@ -1,0 +1,35 @@
+{
+  "name": "recorder-js",
+  "version": "1.0.0",
+  "description": "A simple HTML5/JS demo that uses [Recorder.js](https://github.com/mattdiamond/Recorderjs) to record audio as wav and pause/resume the recording process.",
+  "main": "webpack.config.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/addpipe/simple-recorderjs-demo.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/addpipe/simple-recorderjs-demo/issues"
+  },
+  "homepage": "https://github.com/addpipe/simple-recorderjs-demo#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/register": "^7.5.5",
+    "babel-loader": "^8.0.6",
+    "babel-register": "^6.26.0",
+    "css-loader": "^3.2.0",
+    "inherits": "^2.0.4",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.8.0"
+  }
+}
