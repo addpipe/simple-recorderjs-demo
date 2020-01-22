@@ -14,21 +14,43 @@ a:hover {
 a:visited {
   color: #8d75a3;
 }
+
 body {
-  margin: 1rem;
-  padding: 1rem;
-  font-family: sans-serif;
-  max-width: 28rem;
-  margin: 0 auto;
-  position: relative;
+	line-height: 1.5;
+	font-family: sans-serif;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+	color:black;
+	margin:2em;
 }
+
+h1 {
+	text-decoration: underline red;
+	text-decoration-thickness: 3px;
+	text-underline-offset: 6px;
+	font-size: 220%;
+	font-weight: bold;
+}
+
+h2 {
+	font-weight: bold;
+	color: #005A9C;
+	font-size: 140%;
+	text-transform: uppercase;
+}
+
+red {
+	color: red;
+}
+
 #controls {
   display: flex;
   margin-top: 2rem;
-}
+  max-width: 28em;
+} 
 button {
   flex-grow: 1;
-  height: 2.5rem;
+  height: 3.5rem;
   min-width: 2rem;
   border: none;
   border-radius: 0.15rem;
@@ -41,7 +63,7 @@ button {
   align-items: center;
   color:#ffffff;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 button:hover, button:focus {
   outline: none;
@@ -73,4 +95,8 @@ li {
 #formats {
   margin-top: 0.5rem;
   font-size: 80%;
+}
+
+#recordingsList{
+	max-width: 28em;
 }
