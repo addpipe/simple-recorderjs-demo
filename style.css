@@ -1,7 +1,3 @@
-* {
-  padding: 0;
-  margin: 0;
-}
 a {
   color: #337ab7;
 }
@@ -48,6 +44,7 @@ red {
   margin-top: 2rem;
   max-width: 28em;
 } 
+
 button {
   flex-grow: 1;
   height: 3.5rem;
@@ -65,17 +62,21 @@ button {
   font-weight: bold;
   font-size: 1.5rem;
 }
+
 button:hover, button:focus {
   outline: none;
   background: #c72d1c;
 }
+
 button::-moz-focus-inner {
   border: 0;
 }
+
 button:active {
   box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.2);
   line-height: 3rem;
 }
+
 button:disabled {
   pointer-events: none;
   background: lightgray;
@@ -83,15 +84,18 @@ button:disabled {
 button:first-child {
   margin-left: 0;
 }
+
 audio {
   display: block;
   width: 100%;
   margin-top: 0.2rem;
 }
+
 li {
   list-style: none;
   margin-bottom: 1rem;
 }
+
 #formats {
   margin-top: 0.5rem;
   font-size: 80%;
