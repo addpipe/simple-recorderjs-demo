@@ -47,8 +47,8 @@ red {
 
 button {
   flex-grow: 1;
-  height: 3.5rem;
-  min-width: 2rem;
+  height: 3rem;
+  min-width: 10rem;
   border: none;
   border-radius: 0.15rem;
   background: #ed341d;
@@ -60,7 +60,7 @@ button {
   align-items: center;
   color:#ffffff;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 button:hover, button:focus {

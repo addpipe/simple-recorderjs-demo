@@ -5,9 +5,72 @@
     <title>Simple Recorder.js demo with record, stop and pause - addpipe.com</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Latest compiled and minified Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
+<!-- Cookie consent banner -->
+<style type="text/css">
+#iubenda-cs-banner .iubenda-cs-opt-group button.iubenda-cs-btn-primary {
+    background-color: #0073CE!important;
+    color: #fff!important;
+}
+
+#iubenda-cs-banner .iubenda-cs-opt-group button:hover {
+    opacity: .5!important;
+}
+
+#iubenda-cs-banner .iubenda-cs-opt-group button {
+    padding: 8px 24px!important;
+    display: block;
+    text-align: center!important;
+    margin: 6px 3px!important;
+    font-weight: 700!important;
+    font-size: 100%!important;
+    border-radius: 64px!important;
+    border-style: none!important;
+    cursor: pointer!important;
+}
+
+#iubenda-cs-banner {
+    bottom: 0px !important;
+    left: 0px !important;
+    position: fixed !important;
+    width: 100% !important;
+    z-index: 99999998 !important;
+  }
+
+.iubenda-cs-content {
+    border-radius: 4px!important;
+    margin: 16px!important;
+    padding: 16px 32px!important;
+    display: block;
+    font-family: Helvetica,Arial,FreeSans,sans-serif;
+    font-size: 14px;
+    background: #000;
+    color: #fff;
+}
+
+.iubenda-cs-rationale {
+    max-width: 900px;
+    position: relative;
+    margin: 0 auto;
+}
+
+  .iubenda-banner-content > p {
+    font-family: Helvetica,Arial,FreeSans,sans-serif;
+    line-height: 1.5;
+}
+
+.iubenda-cs-cookie-policy-lnk {
+    text-decoration: underline;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 900;
+}
+</style>
+<script type="text/javascript">
+var _iub = _iub || [];
+_iub.csConfiguration = {"cookiePolicyInOtherWindow":true,"lang":"en","siteId":1519568,"cookiePolicyUrl":"https://addpipe.com/privacy","consentOnContinuedBrowsing":false,"cookiePolicyId":27001331, "banner":{ "content":"<p><strong>This website uses non-essential cookies</strong></p><p>We use non-essential cookies to analyze our traffic. We don't include ads from third parties. If you want to know more or withdraw your consent to all or some of the cookies, please refer to the <a href=\"https://addpipe.com/privacy\" class=\"iubenda-cs-cookie-policy-lnk\">cookie policy</a>. By clicking accept you agree to the use of non-essential cookies.</p>","applyStyles":false,"closeButtonDisplay":false,"acceptButtonDisplay":true }};
+</script><script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
+<!-- end cookie consent -->
   </head>
   <body>
     <h1>Simple Recorder.js demo</h1>
@@ -23,7 +86,7 @@
   	<p><strong>Recordings:</strong></p>
   	<ol id="recordingsList"></ol>
     <!-- inserting these scripts at the end to be able to use all the elements in the DOM -->
-  	<script src="https://cdn.rawgit.com/mattdiamond/Recorderjs/08e7abd9/dist/recorder.js"></script>
+  	<script src="js/recorder.js"></script>
   	<script src="js/app.js"></script>
   </body>
 </html>
