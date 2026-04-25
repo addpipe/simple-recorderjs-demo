@@ -7,4 +7,4 @@ The demo works on both mobile - including Safari 11 - and desktop browsers. I've
 
 Blog post: [https://blog.addpipe.com/using-recorder-js-to-capture-wav-audio-in-your-html5-web-site/](https://blog.addpipe.com/using-recorder-js-to-capture-wav-audio-in-your-html5-web-site/)
 
-Live demo: [https://addpipe.com/simple-recorderjs-demo/](https://addpipe.com/simple-recorderjs-demo/)
+Live demo: [https://addpipe.com/tech-demos/simple-recorderjs-demo/](https://addpipe.com/tech-demos/simple-recorderjs-demo/)
